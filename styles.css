@@ -1,2 +1,45 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 40px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+}
+
+ol {
+  list-style-position: inside;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 20px 0;
+}
+
+img, video, audio {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
